@@ -1,0 +1,20 @@
+- name: Pierre Donat-Bouillud
+  photo: img/people/pierre.jpg
+  position: Postdoctoral Researcher at CTU
+  email: donatpie@fit.cvut.cz
+  web: https://www.pdonatbouillud.com
+  interests: Interested in real time systems, multimedia systems and programming languages.
+
+- name: Filip Křikava
+  photo: img/people/filip.jpg
+  position: Associate Professor at CTU
+  email: filip.krikava@fit.cvut.cz
+  web: http://fikovnik.net
+  interests: Works on static and dynamic program analysis, compilers and virtual machine implementations.
+  
+- name: Tomáš Petříček
+  photo: img/people/tomas.jpg
+  position: Assistant Professor at MFF
+  email: tomas@tomasp.net
+  web: https://d3s.mff.cuni.cz/~petricek
+  interests: Interested in interactive programming systems, functional languages, history and philosophy.

@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div class="container">
+<div class="row">
+  <div class="col-10-md">
+    <p class="lead">
+      We are a group of researchers based in Prague interested in programming languages and systems
+      from the <a href="https://prl-prg.github.io/">Programming Research Laboratory</a> at the 
+      Czech Technical University and the <a href="https://d3s.mff.cuni.cz/">Department of Distributed 
+      and Dependable Systems</a> at the Faculty of Mathematics and Physics. We meet regularly, organise joint events 
+      and promote programming languages and systems research, projects and courses in Prague. 
+    </p>
+    <p class="lead">
+      If you are interested in joining our group, drop us an email or come to any of the events
+      listed below!
+    </p>
+  </div>
+</div><div class="row">
+  <div class="col-12-sm">
+    <h2>Regular Events</h2>
+  </div>
+</div><div class="row events">
+  <div class="col-6-lg">
+    <h3>Reading Group</h3>
+    <p>yad</p>
+  </div>
+  <div class="col-6-lg">
+    <h3>Group Lunch at MFF</h3>
+    <p>yad</p>
+  </div>
+</div><div class="row">
+  <div class="col-10-md">
+    <h2>Courses We Teach</h2>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus quasi deserunt quo non, dignissimos ipsum quidem unde neque quos quisquam, quam perferendis error sint modi aut laudantium? Doloribus, voluptates.</p>
+  </div>
+  <div class="col-12-sm">
+    <ul>
+      <li>Some course?</li>
+    </ul>
+  </div>
+</div><div class="row">
+  <div class="col-12-sm">
+    <h2>Who Are We?</h2>
+  </div>
+</div><div class="row people">
+  {% for it in site.data.members %}
+  <div class="col-6-lg">
+    <img src="{{ it.photo }}" />
+    <div class="info">
+      <h3>{{ it.name }}</h3>
+      <p><strong>{{ it.position }}</strong></p>
+      <p><a href="mailto:{{ it.email }}">{{ it.email }}</a></p>
+      <p><a href="{{ it.web }}">{{ it.web }}</a></p>
+      <p>{{ it.interests }}</p>
+    </div>
+  </div>
+  {% assign mod = forloop.index | modulo: 2 %}
+  {% if mod == 0 %}
+      </div><div class="row people">
+  {% endif %}
+  {% endfor %}
+</div>
+</div>

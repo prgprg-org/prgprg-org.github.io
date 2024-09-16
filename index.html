@@ -4,45 +4,100 @@ layout: default
 
 <div class="container">
 <div class="row">
-  <div class="col-10-md">
-    <p class="lead">
+  <div class="col-9-md">
+    <p>
       We are a group of researchers based in Prague interested in programming languages and systems
       from the <a href="https://prl-prg.github.io/">Programming Research Laboratory</a> at the 
       Czech Technical University and the <a href="https://d3s.mff.cuni.cz/">Department of Distributed 
-      and Dependable Systems</a> at the Faculty of Mathematics and Physics. We meet regularly, organise joint events 
+      and Dependable Systems</a> at the Faculty of Mathematics and Physics, Charles University. We meet regularly, organise joint events 
       and promote programming languages and systems research, projects and courses in Prague. 
     </p>
-    <p class="lead">
+    <p>
       If you are interested in joining our group, drop us an email or come to any of the events
       listed below!
     </p>
   </div>
 </div><div class="row">
-  <div class="col-12-sm">
+  <div class="col-9-md">
     <h2>Regular Events</h2>
+    <p>We run a number of events at both Czech Technical University and Charles University where we can meet 
+      and talk about programming languages and systems. To make talking to each other easier, our reading group
+      alternates between the two locations!</p>
   </div>
 </div><div class="row events">
   <div class="col-6-lg">
     <h3>Reading Group</h3>
-    <p>yad</p>
+    <i class="las la-file-alt"></i>
+    <ul class="condensed">
+      <li><strong>Wednedays (TBD), Malá Strana or Dejvice</strong></li>
+      <li><a href="https://github.com/prgprg-org/reading-group">Upcoming meetings and mailing list</a></li>
+    </ul>
+    <p>
+      Regular reading group where we discuss papers of interest to the group. 
+      Topics range from essential PL reading to recent papers of interest.
+      All students are welcome to join and suggest papers!</p>
   </div>
   <div class="col-6-lg">
     <h3>Group Lunch at MFF</h3>
-    <p>yad</p>
+    <i class="las la-pizza-slice"></i>
+    <ul class="condensed">
+      <li><strong>Mondays 13:00, Café HAMU, Malá Strana</strong></li>
+      <li>Come and loook for us or email Tomas to check</li>
+    </ul>
+    <p>
+      We meet at 12:00 in front of S204 to talk about current research ideas, open 
+      problems and whatever interests us and then have lunch together at 
+      the nearby <a href="https://www.hamu.cz/en/about-hamu/university-cafe/">Café HAMU</a> around 13:00.</p>
+  </div>
+</div><div class="row events">
+  <div class="col-6-lg">
+    <h3>#lang-talk meetups</h3>
+    <i class="las la-chalkboard-teacher"></i>
+    <ul class="condensed">
+      <li><strong>Irregularly, afternoons at FIT, Dejvice</strong></li>
+      <li><a href="https://github.com/lang-talk/meetups">Upcoming events, recordings and mailing list</a></li>
+    </ul>
+    <p>
+      Small student-organized community of PL enthusiasts. Meets for member talks, discussions and
+      invited guest talks. Also check out recordings and a list of useful resources!</p>
   </div>
 </div><div class="row">
-  <div class="col-10-md">
-    <h2>Courses We Teach</h2>
-    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus quasi deserunt quo non, dignissimos ipsum quidem unde neque quos quisquam, quam perferendis error sint modi aut laudantium? Doloribus, voluptates.</p>
+  <div class="col-9-md">
+    <h2>Work with Us!</h2>
+    <p>We have a range of projects and thesis topics for students at both CTU and MFF. 
+      We also often have funding for PhD students and post-doctoral researchers, or can help you with various applications.
+      If you want to move to Prague permanently, we can also give you various tips!
+    </p>
   </div>
   <div class="col-12-sm">
-    <ul>
-      <li>Some course?</li>
+    <ul class="condensed">
+      <li><strong><a href="https://d3s.mff.cuni.cz/students/topics/">Topics for student projects and theses</a></strong> at <strong>D3S, MFF</strong></li>
+      <li><strong><a href="https://prl-prg.github.io/student-projects.html">Student project & PhD research ideas</a></strong> at <strong>PRL, CTU</strong></li>
+      <li><strong><a href="https://d3s.mff.cuni.cz/phd/">PhD opportunities and application guidelines</a></strong> at <strong>D3S, MFF</strong></li>
     </ul>
   </div>
 </div><div class="row">
-  <div class="col-12-sm">
-    <h2>Who Are We?</h2>
+  <div class="col-9-md">
+    <h2>Courses We Teach</h2>
+    <p>This is an incomplete list of courses related to programming langauges and systems in Prague that we and our colleagues teach.
+      If you are missing a great course, send us a <a href="https://github.com/prgprg-org/prgprg-org.github.io">pull request on GitHub</a>.
+    </p>
+    <p>You are welcome to join courses at "the other place", but it is a good idea to drop the lecturer an email about practical details.
+      In the future, we hope to collaborate more closely so that you can (easily) get credits for external courses too.
+    </p>
+    <ul>
+      {% for it in site.data.courses %}
+      <li><p><strong><a href="{{ it.link }}">{{ it.title }}</a> - {{ it.lecturer }}</strong> ({{ it.schedule }})</p>
+        <p>{{ it.label }}</p></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div><div class="row">
+  <div class="col-9-sm">
+    <h2>Organizers and Supporters</h2>
+    <p>Are you working on programming languages in Prague and want to join us? Feel free to drop us an email or add yourself and other information by
+      editing <a href="https://github.com/prgprg-org/prgprg-org.github.io">this page on GitHub</a>!
+    </p>
   </div>
 </div><div class="row people">
   {% for it in site.data.members %}

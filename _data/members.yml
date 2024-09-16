@@ -12,9 +12,16 @@
   web: http://fikovnik.net
   interests: Works on static and dynamic program analysis, compilers and virtual machine implementations.
   
-- name: Tomáš Petříček
+- name: Tomas Petricek
   photo: img/people/tomas.jpg
   position: Assistant Professor at MFF
   email: tomas@tomasp.net
   web: https://d3s.mff.cuni.cz/~petricek
   interests: Interested in interactive programming systems, functional languages, history and philosophy.
+
+- name: Jan Liam Verter
+  photo: img/people/janliam.jpg
+  position: PhD Student at MFF
+  email: verter@d3s.mff.cuni.cz
+  web: https://lambdu.li/
+  interests: Builds small programming languages, theorem provers, and other systems related to PLT.

@@ -67,15 +67,23 @@ header h2 { color:white; font:200 18pt "Neuton", serif; background:#4F7740; padd
 }
 
 article { padding:30px 0px 100px 0px; }
-article h2 { color:white; font:200 22pt "Neuton", serif; background:#4F7740; padding:0px 15px 6px 15px; margin:30px 0px 10px 0px; width:fit-content; }
-article h3 { color:white; font:300 18pt "Neuton", serif; background:#822D1C; padding:0px 10px 5px 10px; margin:30px 0px 10px 0px; width:fit-content; }
-article p, article li { font:200 13pt "Manrope", sans-serif; line-height:1.5em; }
-article p.lead { font-weight:200; font-size:15pt; margin-top:12px; }
+article h2 { color:white; font:300 22pt "Neuton", serif; background:#4F7740; padding:0px 15px 6px 15px; margin:30px 0px 10px 0px; width:fit-content; }
+article h3 { color:white; font:300 16pt "Neuton", serif; background:#822D1C; padding:0px 10px 5px 10px; margin:30px 0px 10px 0px; width:fit-content; }
 article ul { margin-left:30px; }
+article p, article li { font:200 14pt "Manrope", sans-serif; line-height:1.5em; margin-bottom:10px; }
+article .condensed li { margin-bottom:0px; }
+article li p { margin-bottom:0px; }
+article strong { font-weight:500; }
 
 a, a:visited { color:#a92b12; text-decoration:none; }
 a:hover, a:active { text-decoration:underline; }
 
+.events li { list-style-type:none; }
+.events i { font-size:30pt; float:left; margin:8px 10px 10px 0px; }
+.events ul { margin:0px 0px 15px 40px; }
+
 .people img { max-width:140px; float:left; margin-top:20px; box-shadow:0px 0px 7px rgba(0,0,0,0.5); }
 .people .info h3 { margin-top:20px; }  
 .people .info { margin-left:160px; margin-bottom:20px; }
+.people p { margin-bottom:0px;}
+

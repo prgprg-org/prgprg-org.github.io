@@ -1,0 +1,11 @@
+- title: Programming language design
+  schedule: Tuesday, 12:20, S6
+  lecturer: Tomas Petricek, MFF
+  link: https://d3s.mff.cuni.cz/teaching/nprg075/
+  label: Learn how to design better programming langauges and libraries using a range of empirical, formal, theoretical and interdisciplinary research methods.
+
+- title: Write your own tiny programming system(s)!
+  schedule: Not taught in 2024/25
+  lecturer: Tomas Petricek, MFF
+  link: https://d3s.mff.cuni.cz/teaching/nprg077/
+  label: Learn fundamental techniques from functional, object-oriented, imperative and logic languages and systems by writing their miniature versions.

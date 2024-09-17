@@ -21,7 +21,7 @@
 
 - name: Jan Liam Verter
   photo: img/people/janliam.jpg
-  position: PhD Student at MFF
+  position: PhD Student at MFF, TA at FIT CTU
   email: verter@d3s.mff.cuni.cz
-  web: https://lambdu.li/
-  interests: Builds small programming languages, theorem provers, and other systems related to PLT.
+  web: https://github.com/lambduli
+  interests: I build small programming languages, theorem provers, and other systems related to PLT.

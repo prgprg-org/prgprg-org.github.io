@@ -25,3 +25,10 @@
   email: verter@d3s.mff.cuni.cz
   web: https://github.com/lambduli
   interests: I build small programming languages, theorem provers, and other systems related to PLT.
+
+- name: Tomáš Jakl
+  photo: img/people/tomasj.jpg
+  position: Assistant Professor at CTU
+  email: tomas.jakl@cvut.cz
+  web: https://tomas.jakl.one
+  interests: Interested in semantics properties of logics and programming languages.

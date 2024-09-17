@@ -74,6 +74,14 @@ article .condensed li { margin-bottom:0px; }
 article li p { margin-bottom:0px; }
 article strong { font-weight:500; }
 
+.signup-wrapper { background-color:#4F7740; padding:30px 0px 40px 0px; margin:30px 0px;}
+article .signup h2 { color:white; font:300 22pt "Neuton", serif; background:none; padding:0px; margin:0px 0px 5px 0px; }
+article .signup p { color:white; }
+.signup button, .signup input { font:400 13pt "Manrope", sans-serif; line-height:1.5em; }
+.signup input { padding:2px 10px; margin:0px 10px 10px 0px;  width:calc(100% - 200px); min-width:200px; background:#E5E3DA; border:solid 2px #38572d; border-radius:8px; }
+.signup button { width:160px; background:#38572d; color:white; border-style:none; border-radius:8px; padding:5px 10px; cursor:pointer; }
+.signup button:hover { background:#294220; }
+
 a, a:visited { color:#a92b12; text-decoration:none; }
 a:hover, a:active { text-decoration:underline; }
 

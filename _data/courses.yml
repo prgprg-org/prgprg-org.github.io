@@ -15,3 +15,15 @@
   lecturer: Tomas Petricek, MFF
   link: https://forms.gle/exXgjDi6Gv5GPy5Z6
   label: A few people expressed interest in learning some F#, so we will meet occasionally throughout the winter semester for a series of hands-on sessions on F#.
+
+- title: Program Analysis
+  schedule: Summer semester 2025
+  lecturer: Filip Krikava, FIT
+  link: https://courses.fit.cvut.cz/NI-APR/index.html
+  label: Learn how to reason about programs without running them. We cover the basic techniques of static and dynamic program analysis.
+
+- title: Runtime Systems
+  schedule: Summer semester 2025
+  lecturer: Filip Krikava, FIT
+  link: https://courses.fit.cvut.cz/NI-RUN/index.html
+  label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.

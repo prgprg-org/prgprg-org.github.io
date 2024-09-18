@@ -32,10 +32,11 @@
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
 
 - title: Advanced Program Testing
-  schedule: Winter Semester 2024
+  schedule: Thursday, 9:15, TK:PU1
   lecturer: Pierre Donat-Bouillud, FIT
-  link: https://courses.fit.cvut.cz/NI-APT/index.html
+  link: https://bilakniha.cvut.cz/en/predmet7585206.html#gsc.tab=0
   label: Learn how to test a program, from specification, structural, property-based, and mutation testing, to fuzzing and symbolic execution.
+  language: English
 
 - title: Programming Paradigms
   schedule: Winter Semester 2024

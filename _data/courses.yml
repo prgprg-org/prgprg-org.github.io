@@ -22,13 +22,13 @@
 - title: Program Analysis
   schedule: Summer semester 2025
   lecturer: Filip Krikava, FIT
-  link: https://courses.fit.cvut.cz/NI-APR/index.html
+  link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/08/21/p6082106.html
   label: Learn how to reason about programs without running them. We cover the basic techniques of static and dynamic program analysis.
 
 - title: Runtime Systems
   schedule: Summer semester 2025
   lecturer: Filip Krikava, FIT
-  link: https://courses.fit.cvut.cz/NI-RUN/index.html
+  link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
 
 - title: Advanced Program Testing

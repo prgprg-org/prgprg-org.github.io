@@ -22,23 +22,25 @@
 - title: Program Analysis
   schedule: Summer semester 2025
   lecturer: Filip Krikava, FIT
-  link: https://courses.fit.cvut.cz/NI-APR/index.html
+  link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/08/21/p6082106.html
   label: Learn how to reason about programs without running them. We cover the basic techniques of static and dynamic program analysis.
 
 - title: Runtime Systems
   schedule: Summer semester 2025
   lecturer: Filip Krikava, FIT
-  link: https://courses.fit.cvut.cz/NI-RUN/index.html
+  link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
 
 - title: Advanced Program Testing
-  schedule: Winter Semester 2024
+  schedule: Thursday, 9:15, TK:PU1
   lecturer: Pierre Donat-Bouillud, FIT
-  link: https://courses.fit.cvut.cz/NI-APT/index.html
+  link: https://bilakniha.cvut.cz/en/predmet7585206.html#gsc.tab=0
   label: Learn how to test a program, from specification, structural, property-based, and mutation testing, to fuzzing and symbolic execution.
+  language: English
 
 - title: Programming Paradigms
   schedule: Winter Semester 2024
   lecturer: Tomáš Jakl and Jan Liam Verter, FIT
-  link: https://courses.fit.cvut.cz/NI-PPA/index.html
+  link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming.
+  language: English/Czech

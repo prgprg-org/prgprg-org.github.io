@@ -3,7 +3,7 @@
   position: Postdoctoral Researcher at CTU
   email: donatpie@fit.cvut.cz
   web: https://www.pdonatbouillud.com
-  interests: Interested in real time systems, multimedia systems and programming languages.
+  interests: Interested in programming languages, program analysis, and testing techniques, including fuzzing.
 
 - name: Filip Křikava
   photo: img/people/filip.jpg
@@ -11,7 +11,7 @@
   email: filip.krikava@fit.cvut.cz
   web: http://fikovnik.net
   interests: Works on static and dynamic program analysis, compilers and virtual machine implementations.
-  
+
 - name: Tomas Petricek
   photo: img/people/tomas.jpg
   position: Assistant Professor at MFF
@@ -21,7 +21,7 @@
 
 - name: Jan Liam Verter
   photo: img/people/janliam.jpg
-  position: PhD Student at MFF, TA at FIT CTU
+  position: PhD Student at MFF
   email: verter@d3s.mff.cuni.cz
   web: https://github.com/lambduli
   interests: I build small programming languages, theorem provers, and other systems related to PLT.

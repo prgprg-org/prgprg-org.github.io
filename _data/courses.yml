@@ -44,3 +44,17 @@
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming.
   language: English/Czech
+
+- title: Functional Programming
+  schedule: Wednesday, 12:20, S9
+  lecturer: Vít Šefl, MFF
+  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NAIL097
+  label: Learn theoretical foundations of functional programming and their uses, in particular in the environment of Haskell language. 
+  language: English/Czech
+
+- title: Programming Methodology and Philosophy of Programming Languages
+  schedule: Summer semester 2024/2025
+  lecturer: Vít Šefl, MFF
+  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG003
+  label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust.
+  language: Czech

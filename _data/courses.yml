@@ -1,32 +1,34 @@
-- title: Programming language design
+- title: Programming Language Design
   schedule: Tuesday, 12:20, S6
   lecturer: Tomas Petricek, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg075/
   label: Learn how to design better programming langauges and libraries using a range of empirical, formal, theoretical and interdisciplinary research methods.
   language: English
+  current: yes
 
-- title: Write your own tiny programming system(s)!
-  schedule: Not taught in 2024/25
+- title: Write Your Own Tiny Programming System(s)!
+  schedule: Winter 2025/26
   lecturer: Tomas Petricek, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg077/
   label: Learn fundamental techniques from functional, object-oriented, imperative and logic languages and systems by writing their miniature versions.
   language: English
 
-- title: Informal hands-on F# course
+- title: Informal Hands-on F# Course
   schedule: To be agreed
   lecturer: Tomas Petricek, MFF
   link: https://forms.gle/exXgjDi6Gv5GPy5Z6
   label: A few people expressed interest in learning some F#, so we will meet occasionally throughout the winter semester for a series of hands-on sessions on F#.
   language: English/Czech
+  current: yes
 
 - title: Program Analysis
-  schedule: Summer semester 2025
+  schedule: Summer 2024/25
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/08/21/p6082106.html
   label: Learn how to reason about programs without running them. We cover the basic techniques of static and dynamic program analysis.
 
 - title: Runtime Systems
-  schedule: Summer semester 2025
+  schedule: Summer 2024/25
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
@@ -34,16 +36,18 @@
 - title: Advanced Program Testing
   schedule: Thursday, 9:15, TK:PU1
   lecturer: Pierre Donat-Bouillud, FIT
-  link: https://bilakniha.cvut.cz/en/predmet7585206.html#gsc.tab=0
+  link: https://bilakniha.cvut.cz/en/predmet7585206.html
   label: Learn how to test a program, from specification, structural, property-based, and mutation testing, to fuzzing and symbolic execution.
   language: English
+  current: yes
 
 - title: Programming Paradigms
-  schedule: Winter Semester 2024
+  schedule: Friday, 9:15, TH:A-s135
   lecturer: Tomáš Jakl and Jan Liam Verter, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming.
   language: English/Czech
+  current: yes
 
 - title: Functional Programming
   schedule: Wednesday, 12:20, S9
@@ -51,9 +55,10 @@
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NAIL097
   label: Learn theoretical foundations of functional programming and their uses, in particular in the environment of Haskell language. 
   language: English/Czech
+  current: yes
 
-- title: Programming Methodology and Philosophy of Programming Languages
-  schedule: Summer semester 2024/2025
+- title: Programming Methodology and Philosophy of PLs
+  schedule: Summer 2024/2025
   lecturer: Vít Šefl, MFF
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG003
   label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust.

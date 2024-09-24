@@ -98,10 +98,22 @@ layout: default
     <p>You are welcome to join courses at "the other place", but it is a good idea to drop the lecturer an email about practical details.
       In the future, we hope to collaborate more closely so that you can (easily) get credits for external courses too.
     </p>
+    <h3>Winter Semester 2024/25</h3>
     <ul>
       {% for it in site.data.courses %}
+      {% if it.current %}
       <li><p><strong><a href="{{ it.link }}">{{ it.title }}</a> - {{ it.lecturer }}</strong> ({{ it.schedule }})</p>
         <p>{{ it.label }}</p></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    <h3>Summer and Future Courses</h3>
+    <ul>
+      {% for it in site.data.courses %}
+      {% unless it.current %}
+      <li><p><strong><a href="{{ it.link }}">{{ it.title }}</a> - {{ it.lecturer }}</strong> ({{ it.schedule }})</p>
+        <p>{{ it.label }}</p></li>
+      {% endunless %}
       {% endfor %}
     </ul>
   </div>

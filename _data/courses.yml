@@ -42,10 +42,10 @@
   current: yes
 
 - title: Programming Paradigms
-  schedule: Friday, 9:15, TH:A-s135
+  schedule: Friday, 9:15 or 11:00, TH:A-s135
   lecturer: Tomáš Jakl and Jan Liam Verter, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
-  label: An introductory course to the theory of programming languages and to functional and logic programming.
+  label: An introductory course to the theory of programming languages and to functional and logic programming. See [Czech](https://bilakniha.cvut.cz/cs/predmet6704206.html#gsc.tab=0) or [English](https://bilakniha.cvut.cz/cs/predmet6706506.html#gsc.tab=0) parallel information page.
   language: English/Czech
   current: yes
 
@@ -61,5 +61,5 @@
   schedule: Summer 2024/2025
   lecturer: Vít Šefl, MFF
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG003
-  label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust.
+  label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust. Note that this course is taught in Czech.
   language: Czech

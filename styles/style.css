@@ -70,6 +70,7 @@ article h2 { color:white; font:300 22pt "Neuton", serif; background:#4F7740; pad
 article h3 { color:white; font:300 16pt "Neuton", serif; background:#822D1C; padding:0px 10px 5px 10px; margin:30px 0px 10px 0px; width:fit-content; }
 article ul { margin-left:30px; }
 article p, article li { font:200 14pt "Manrope", sans-serif; line-height:1.5em; margin-bottom:10px; }
+article p { hyphens:auto; }
 article .condensed li { margin-bottom:0px; }
 article li p { margin-bottom:0px; }
 article strong { font-weight:500; }

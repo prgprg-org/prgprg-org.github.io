@@ -39,3 +39,10 @@
   email: sefl@ksvi.mff.cuni.cz
   web: https://ksvi.mff.cuni.cz/~sefl
   interests: Interested in functional programming, type systems, and theorem provers.
+
+- name: Petr Maj
+  photo: img/people/peta.jpg
+  position: Senior Compiler Engineer at Azul, Assistant Professor at CTU
+  email: petr.maj@fit.cvut.cz
+  web: https://peta.terminalpp.com
+  interests: Works on compilers, virtual machines and embedded systems.

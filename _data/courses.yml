@@ -68,6 +68,6 @@
   schedule: Fall 2024/25
   lecturer: Petr Maj, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
-  label: Learn how to build a compiler for a C-like programming langhuage with emphasis on program optimization and target code generation.
+  label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.
   language: English/Czech
   current: yes

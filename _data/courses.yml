@@ -14,7 +14,7 @@
   language: English
 
 - title: Informal Hands-on F# Course
-  schedule: To be agreed
+  schedule: Tuesday, 10:40, S204 corridor
   lecturer: Tomas Petricek, MFF
   link: https://forms.gle/exXgjDi6Gv5GPy5Z6
   label: A few people expressed interest in learning some F#, so we will meet occasionally throughout the winter semester for a series of hands-on sessions on F#.
@@ -71,7 +71,7 @@
   language: Czech
 
 - title: Code Generation
-  schedule: Fall 2024/25
+  schedule: Friday, 14:30, T9:301
   lecturer: Petr Maj, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.

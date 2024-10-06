@@ -63,3 +63,11 @@
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG003
   label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust. Note that this course is taught in Czech.
   language: Czech
+
+- title: Code Generation
+  schedule: Fall 2024/25
+  lecturer: Petr Maj, FIT
+  link: https://bilakniha.cvut.cz/cs/predmet6114906.html
+  label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.
+  language: English/Czech
+  current: yes

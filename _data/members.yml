@@ -46,3 +46,9 @@
   email: petr.maj@fit.cvut.cz
   web: https://peta.terminalpp.com
   interests: Works on compilers, virtual machines and embedded systems.
+
+- name: Štěpán Šindelář
+  photo: img/people/stepan.jpg
+  position: Language Runtimes Engineer at Oracle Labs
+  email: stepan.sindelar@oracle.com
+  interests: Works on dynamic language runtimes and virtual machines

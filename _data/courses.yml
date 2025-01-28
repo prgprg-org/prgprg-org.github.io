@@ -14,9 +14,9 @@
   language: English
 
 - title: Informal Hands-on F# Course
-  schedule: To be agreed
+  schedule: Tuesday, 10:40, S204 corridor
   lecturer: Tomas Petricek, MFF
-  link: https://forms.gle/exXgjDi6Gv5GPy5Z6
+  link: https://github.com/tpetricek/fsharp-course/
   label: A few people expressed interest in learning some F#, so we will meet occasionally throughout the winter semester for a series of hands-on sessions on F#.
   language: English/Czech
   current: yes
@@ -33,6 +33,12 @@
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
 
+- title: Virtual Machines and Managed Runtimes
+  schedule: Summer 2024/25
+  lecturer: Štěpán Šindelář, MFF
+  link: https://d3s.mff.cuni.cz/teaching/nprg076/
+  label: Learn about real-world virtual machines internals, with a focus on JVM, GraalVM, and Python. Get hands-on experience with the Truffle language implementation framework.
+
 - title: Advanced Program Testing
   schedule: Thursday, 9:15, TK:PU1
   lecturer: Pierre Donat-Bouillud, FIT
@@ -43,7 +49,7 @@
 
 - title: Programming Paradigms
   schedule: Friday, 9:15 or 11:00, TH:A-s135
-  lecturer: Tomáš Jakl and Jan Liam Verter, FIT
+  lecturer: Tomáš Jakl, Petr Maj and Jan Liam Verter, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming. See [Czech](https://bilakniha.cvut.cz/cs/predmet6704206.html#gsc.tab=0) or [English](https://bilakniha.cvut.cz/cs/predmet6706506.html#gsc.tab=0) parallel information page.
   language: English/Czech
@@ -65,7 +71,7 @@
   language: Czech
 
 - title: Code Generation
-  schedule: Fall 2024/25
+  schedule: Friday, 14:30, T9:301
   lecturer: Petr Maj, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.

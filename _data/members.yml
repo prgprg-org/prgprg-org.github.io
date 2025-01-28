@@ -24,7 +24,7 @@
   position: PhD Student at MFF
   email: verter@d3s.mff.cuni.cz
   web: https://github.com/lambduli
-  interests: I build small programming languages, theorem provers, and other systems related to PLT.
+  interests: Builds small programming languages, theorem provers, and other systems related to PLT.
 
 - name: Tomáš Jakl
   photo: img/people/tomasj.jpg
@@ -46,3 +46,9 @@
   email: petr.maj@fit.cvut.cz
   web: https://peta.terminalpp.com
   interests: Works on compilers, virtual machines and embedded systems.
+
+- name: Štěpán Šindelář
+  photo: img/people/stepan.jpg
+  position: Language Runtimes Engineer at Oracle Labs
+  email: stepan.sindelar@oracle.com
+  interests: Works on dynamic language runtimes and virtual machines

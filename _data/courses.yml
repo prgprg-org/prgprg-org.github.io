@@ -1,10 +1,9 @@
 - title: Programming Language Design
-  schedule: Tuesday, 12:20, S6
+  schedule: Winter 2026/27
   lecturer: Tomas Petricek, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg075/
   label: Learn how to design better programming langauges and libraries using a range of empirical, formal, theoretical and interdisciplinary research methods.
   language: English
-  current: yes
 
 - title: Write Your Own Tiny Programming System(s)!
   schedule: Winter 2025/26
@@ -14,66 +13,65 @@
   language: English
 
 - title: Informal Hands-on F# Course
-  schedule: Tuesday, 10:40, S204 corridor
+  schedule: To be agreed
   lecturer: Tomas Petricek, MFF
   link: https://github.com/tpetricek/fsharp-course/
   label: A few people expressed interest in learning some F#, so we will meet occasionally throughout the winter semester for a series of hands-on sessions on F#.
   language: English/Czech
-  current: yes
 
 - title: Program Analysis
   schedule: Summer 2024/25
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/08/21/p6082106.html
   label: Learn how to reason about programs without running them. We cover the basic techniques of static and dynamic program analysis.
+  current: yes
 
 - title: Runtime Systems
-  schedule: Summer 2024/25
+  schedule: Tuesday 14:00, TH:A-1247
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
+  current: yes
 
 - title: Virtual Machines and Managed Runtimes
-  schedule: Summer 2024/25
+  schedule: Tuesday, 14:00, S7
   lecturer: Štěpán Šindelář, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg076/
   label: Learn about real-world virtual machines internals, with a focus on JVM, GraalVM, and Python. Get hands-on experience with the Truffle language implementation framework.
+  current: yes
 
 - title: Advanced Program Testing
-  schedule: Thursday, 9:15, TK:PU1
+  schedule: Winter 2025/26
   lecturer: Pierre Donat-Bouillud, FIT
   link: https://bilakniha.cvut.cz/en/predmet7585206.html
   label: Learn how to test a program, from specification, structural, property-based, and mutation testing, to fuzzing and symbolic execution.
   language: English
-  current: yes
 
 - title: Programming Paradigms
-  schedule: Friday, 9:15 or 11:00, TH:A-s135
+  schedule: Winter 2025/26
   lecturer: Tomáš Jakl, Petr Maj and Jan Liam Verter, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming. See [Czech](https://bilakniha.cvut.cz/cs/predmet6704206.html#gsc.tab=0) or [English](https://bilakniha.cvut.cz/cs/predmet6706506.html#gsc.tab=0) parallel information page.
   language: English/Czech
-  current: yes
 
 - title: Functional Programming
-  schedule: Wednesday, 12:20, S9
+  schedule: Winter 2025/26
   lecturer: Vít Šefl, MFF
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NAIL097
   label: Learn theoretical foundations of functional programming and their uses, in particular in the environment of Haskell language. 
   language: English/Czech
-  current: yes
 
 - title: Programming Methodology and Philosophy of PLs
-  schedule: Summer 2024/2025
+  schedule: Tuesday, 15:40, S8
   lecturer: Vít Šefl, MFF
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG003
   label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust. Note that this course is taught in Czech.
   language: Czech
+  current: yes
 
 - title: Code Generation
-  schedule: Friday, 14:30, T9:301
+  schedule: Winter, 2025/26
   lecturer: Petr Maj, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.
   language: English/Czech
-  current: yes

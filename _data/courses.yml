@@ -70,7 +70,7 @@
   language: Czech
 
 - title: Code Generation
-  schedule: Winter, 2025/26
+  schedule: Winter 2025/26
   lecturer: Petr Maj, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.

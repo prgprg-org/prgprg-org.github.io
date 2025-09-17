@@ -6,39 +6,37 @@
   language: English
 
 - title: Write Your Own Tiny Programming System(s)!
-  schedule: Winter 2025/26
+  schedule: Thursday 12:20, S1
   lecturer: Tomas Petricek, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg077/
   label: Learn fundamental techniques from functional, object-oriented, imperative and logic languages and systems by writing their miniature versions.
   language: English
+  current: yes
 
 - title: Informal Hands-on F# Course
-  schedule: To be agreed
+  schedule: Winter 2024/25
   lecturer: Tomas Petricek, MFF
   link: https://github.com/tpetricek/fsharp-course/
   label: A few people expressed interest in learning some F#, so we will meet occasionally throughout the winter semester for a series of hands-on sessions on F#.
-  language: English/Czech
+  language: English
 
 - title: Program Analysis
-  schedule: Summer 2024/25
+  schedule: Summer 2025/26
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/08/21/p6082106.html
   label: Learn how to reason about programs without running them. We cover the basic techniques of static and dynamic program analysis.
-  current: yes
 
 - title: Runtime Systems
-  schedule: Tuesday 14:00, TH:A-1247
+  schedule: Summer 2025/26
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
-  current: yes
 
 - title: Virtual Machines and Managed Runtimes
-  schedule: Tuesday, 14:00, S7
+  schedule: Summer 2025/26
   lecturer: Štěpán Šindelář, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg076/
   label: Learn about real-world virtual machines internals, with a focus on JVM, GraalVM, and Python. Get hands-on experience with the Truffle language implementation framework.
-  current: yes
 
 - title: Advanced Program Testing
   schedule: Winter 2025/26
@@ -46,6 +44,7 @@
   link: https://bilakniha.cvut.cz/en/predmet7585206.html
   label: Learn how to test a program, from specification, structural, property-based, and mutation testing, to fuzzing and symbolic execution.
   language: English
+  current: yes
 
 - title: Programming Paradigms
   schedule: Winter 2025/26
@@ -53,21 +52,22 @@
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming. See [Czech](https://bilakniha.cvut.cz/cs/predmet6704206.html#gsc.tab=0) or [English](https://bilakniha.cvut.cz/cs/predmet6706506.html#gsc.tab=0) parallel information page.
   language: English/Czech
+  current: yes
 
 - title: Functional Programming
-  schedule: Winter 2025/26
+  schedule: Thursday 15:40, S1
   lecturer: Vít Šefl, MFF
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NAIL097
-  label: Learn theoretical foundations of functional programming and their uses, in particular in the environment of Haskell language. 
+  label: Learn theoretical foundations of functional programming and their uses, in particular in the environment of Haskell language.
   language: English/Czech
-
-- title: Programming Methodology and Philosophy of PLs
-  schedule: Tuesday, 15:40, S8
-  lecturer: Vít Šefl, MFF
-  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG003
-  label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust. Note that this course is taught in Czech.
-  language: Czech
   current: yes
+
+- title: Principles of Programming Languages
+  schedule: Summer 2025/26
+  lecturer: Vít Šefl, MFF
+  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG084
+  label: Learn about basic principles and concepts of programming languages, including structured, object-oriented and functional programming. Note that this course is taught in Czech.
+  language: Czech
 
 - title: Code Generation
   schedule: Winter, 2025/26
@@ -75,3 +75,4 @@
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.
   language: English/Czech
+  current: yes

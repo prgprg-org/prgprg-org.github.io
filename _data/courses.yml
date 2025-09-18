@@ -39,7 +39,7 @@
   label: Learn about real-world virtual machines internals, with a focus on JVM, GraalVM, and Python. Get hands-on experience with the Truffle language implementation framework.
 
 - title: Advanced Program Testing
-  schedule: Winter 2025/26
+  schedule: Friday, 14:30 (odd weeks)/16:15 (even weeks), T9:346
   lecturer: Pierre Donat-Bouillud, FIT
   link: https://bilakniha.cvut.cz/en/predmet7585206.html
   label: Learn how to test a program, from specification, structural, property-based, and mutation testing, to fuzzing and symbolic execution.

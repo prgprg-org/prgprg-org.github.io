@@ -21,10 +21,16 @@
   language: English
 
 - title: Program Analysis
-  schedule: Summer 2025/26
+  schedule: Thursday 12:45, T9:346
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/08/21/p6082106.html
-  label: Learn how to reason about programs without running them. We cover the basic techniques of static and dynamic program analysis.
+  label: Learn the art of reasoning about programs without running them. We cover the basic techniques of static and dynamic program analysis.
+
+- title: Object-Oriented Programming
+  schedule: Friday 12:45, T9:155
+  lecturer: Filip Krikava, FIT
+  link: https://bilakniha.cvut.cz/en/predmet6624306.html
+  label: Learn OOP techniques including polymorphism (subtyping, parametric and ahdoc), composition, encapsulation and how it helps to organize your code.
 
 - title: Runtime Systems
   schedule: Summer 2025/26

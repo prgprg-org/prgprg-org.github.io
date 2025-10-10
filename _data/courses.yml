@@ -55,7 +55,7 @@
   current: yes
 
 - title: Programming Paradigms
-  schedule: Winter 2025/26
+  schedule: Friday 9:15, JP:B-671 (EN) and Friday 11:00, T9:155 (CZ)
   lecturer: Tomáš Jakl, Petr Maj and Jan Liam Verter, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming. See [Czech](https://bilakniha.cvut.cz/cs/predmet6704206.html#gsc.tab=0) or [English](https://bilakniha.cvut.cz/cs/predmet6706506.html#gsc.tab=0) parallel information page.
@@ -84,3 +84,10 @@
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.
   language: English/Czech
   current: yes
+
+- title: Semantics of Programming Languages
+  schedule: Winter 2026/27
+  lecturer: Tomáš Jakl
+  link: https://tomas.jakl.one/teaching
+  label: An introduction to the study of PL semantics. We will look at denotational, operational and axiomatic semantics and the comparison of these. The problem of full abstraction will be also discussed.
+  language: English/Czech

@@ -91,3 +91,11 @@
   link: https://tomas.jakl.one/teaching
   label: An introduction to the study of PL semantics. We will look at denotational, operational and axiomatic semantics and the comparison of these. The problem of full abstraction will be also discussed.
   language: English/Czech
+
+- title: Programming in Haskell
+  schedule: Summer semester, Tuesdays 12:20, S6
+  lecturer: Miroslav Kratochvíl, MFF
+  link: https://teaching.mff.cuni.cz/nprg068-web/
+  label: Very pratically-oriented course about making realistic software in a high-level strictly-typed lazy programming language. Focuses on use of the most distinguishing features and ecosystem libraries.
+  language: Czech (switches to English on demand)
+  current: yes

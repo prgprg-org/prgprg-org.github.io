@@ -11,7 +11,6 @@
   link: https://d3s.mff.cuni.cz/teaching/nprg077/
   label: Learn fundamental techniques from functional, object-oriented, imperative and logic languages and systems by writing their miniature versions.
   language: English
-  current: yes
 
 - title: Informal Hands-on F# Course
   schedule: Winter 2024/25
@@ -25,26 +24,26 @@
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/08/21/p6082106.html
   label: Learn the art of reasoning about programs without running them. We cover the basic techniques of static and dynamic program analysis.
-  current: yes
 
 - title: Object-Oriented Programming
   schedule: Friday 12:45, T9:155
   lecturer: Filip Krikava, FIT
   link: https://bilakniha.cvut.cz/en/predmet6624306.html
   label: Learn OOP techniques including polymorphism (subtyping, parametric and ahdoc), composition, encapsulation and how it helps to organize your code.
-  current: yes
 
 - title: Runtime Systems
   schedule: Summer 2025/26
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
+  current: yes
 
 - title: Virtual Machines and Managed Runtimes
   schedule: Summer 2025/26
   lecturer: Štěpán Šindelář, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg076/
   label: Learn about real-world virtual machines internals, with a focus on JVM, GraalVM, and Python. Get hands-on experience with the Truffle language implementation framework.
+  current: yes
 
 - title: Advanced Program Testing
   schedule: Friday, 14:30 (odd weeks)/16:15 (even weeks), T9:346
@@ -52,7 +51,6 @@
   link: https://bilakniha.cvut.cz/en/predmet7585206.html
   label: Learn how to test a program, from specification, structural, property-based, and mutation testing, to fuzzing and symbolic execution.
   language: English
-  current: yes
 
 - title: Programming Paradigms
   schedule: Friday 9:15, JP:B-671 (EN) and Friday 11:00, T9:155 (CZ)
@@ -60,7 +58,6 @@
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming. See [Czech](https://bilakniha.cvut.cz/cs/predmet6704206.html#gsc.tab=0) or [English](https://bilakniha.cvut.cz/cs/predmet6706506.html#gsc.tab=0) parallel information page.
   language: English/Czech
-  current: yes
 
 - title: Functional Programming
   schedule: Thursday 15:40, S1
@@ -68,7 +65,6 @@
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NAIL097
   label: Learn theoretical foundations of functional programming and their uses, in particular in the environment of Haskell language.
   language: English/Czech
-  current: yes
 
 - title: Principles of Programming Languages
   schedule: Summer 2025/26
@@ -76,6 +72,7 @@
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG084
   label: Learn about basic principles and concepts of programming languages, including structured, object-oriented and functional programming. Note that this course is taught in Czech.
   language: Czech
+  current: yes
 
 - title: Code Generation
   schedule: Winter 2025/26
@@ -83,7 +80,6 @@
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.
   language: English/Czech
-  current: yes
 
 - title: Semantics of Programming Languages
   schedule: Winter 2026/27

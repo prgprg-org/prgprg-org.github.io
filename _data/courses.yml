@@ -95,3 +95,11 @@
   label: Very pratically-oriented course about making realistic software in a high-level strictly-typed lazy programming language. Focuses on use of the most distinguishing features and ecosystem libraries.
   language: Czech (switches to English on demand)
   current: yes
+
+- title: Effective Software
+  schedule: Summer 2025/26, Mondays 12:45, KN:E-301
+  lecturer: Jakub Dupák & David Šišlák, FEL
+  link: https://esw.pages.fel.cvut.cz/
+  label: Learn how to write effective software, from hardware, through operating systems, to compilers and programming languages.
+  language: English (+ Czech labs available)
+  current: yes

@@ -52,3 +52,10 @@
   position: Language Runtimes Engineer at Oracle Labs
   email: stepan.sindelar@oracle.com
   interests: Works on dynamic language runtimes and virtual machines
+
+- name: Jakub Dupák
+  photo: img/people/jakub.jpg
+  position: Lecturer at CTU, Compiler Engineer at Microsoft
+  email: dev@jakubdupak.com
+  web: https://jakubdupak.com
+  interests: Interested in compilers, programming languages, system programming, Zig, and Rust.

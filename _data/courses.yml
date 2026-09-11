@@ -1,24 +1,3 @@
-- title: Programming Language Design
-  schedule: Winter 2026/27
-  lecturer: Tomas Petricek, MFF
-  link: https://d3s.mff.cuni.cz/teaching/nprg075/
-  label: Learn how to design better programming langauges and libraries using a range of empirical, formal, theoretical and interdisciplinary research methods.
-  language: English
-
-- title: Write Your Own Tiny Programming System(s)!
-  schedule: Thursday 12:20, S1
-  lecturer: Tomas Petricek, MFF
-  link: https://d3s.mff.cuni.cz/teaching/nprg077/
-  label: Learn fundamental techniques from functional, object-oriented, imperative and logic languages and systems by writing their miniature versions.
-  language: English
-
-- title: Informal Hands-on F# Course
-  schedule: Winter 2024/25
-  lecturer: Tomas Petricek, MFF
-  link: https://github.com/tpetricek/fsharp-course/
-  label: A few people expressed interest in learning some F#, so we will meet occasionally throughout the winter semester for a series of hands-on sessions on F#.
-  language: English
-
 - title: Program Analysis
   schedule: Thursday 12:45, T9:346
   lecturer: Filip Krikava, FIT
@@ -36,14 +15,12 @@
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
-  current: yes
 
 - title: Virtual Machines and Managed Runtimes
-  schedule: Summer 2025/26
+  schedule: Summer 2026/27
   lecturer: Štěpán Šindelář, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg076/
   label: Learn about real-world virtual machines internals, with a focus on JVM, GraalVM, and Python. Get hands-on experience with the Truffle language implementation framework.
-  current: yes
 
 - title: Advanced Program Testing
   schedule: Friday, 14:30 (odd weeks)/16:15 (even weeks), T9:346
@@ -60,12 +37,11 @@
   language: English/Czech
 
 - title: Principles of Programming Languages
-  schedule: Summer 2025/26
-  lecturer: Vít Šefl, MFF
+  schedule: Summer 2026/27
+  lecturer: Vít Šefl & Tomas Petricek, MFF
   link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG084
-  label: Learn about basic principles and concepts of programming languages, including structured, object-oriented and functional programming. Note that this course is taught in Czech.
-  language: Czech
-  current: yes
+  label: Learn about basic principles and concepts of programming languages, including structured, object-oriented and functional programming.
+  language: Czech/English
 
 - title: Code Generation
   schedule: Winter 2025/26
@@ -82,12 +58,11 @@
   language: English/Czech
 
 - title: Programming in Haskell
-  schedule: Summer semester, Tuesdays 12:20, S6
+  schedule: Summer 2026/27
   lecturer: Miroslav Kratochvíl, MFF
   link: https://teaching.mff.cuni.cz/nprg068-web/
   label: Very pratically-oriented course about making realistic software in a high-level strictly-typed lazy programming language. Focuses on use of the most distinguishing features and ecosystem libraries.
   language: Czech (switches to English on demand)
-  current: yes
 
 - title: Effective Software
   schedule: Summer 2025/26, Mondays 12:45, KN:E-301
@@ -95,4 +70,19 @@
   link: https://esw.pages.fel.cvut.cz/
   label: Learn how to write effective software, from hardware, through operating systems, to compilers and programming languages.
   language: English (+ Czech labs available)
+
+- title: Theory of Programming Languages
+  schedule: Winter 2026/27, Wed 12:20 in S10
+  lecturer: Vít Šefl & Tomas Petricek, MFF
+  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG085
+  label: Learn about theoretical concepts and tools for studying programming languages. We will look at formal models of programming languages and explore their properties.
+  language: Czech/English
+  current: yes
+
+- title: Cultures of Programming
+  schedule: Winter 2026/27, Tue 10:40 in S10
+  lecturer: Tomas Petricek, MFF
+  link: https://d3s.mff.cuni.cz/teaching/nprg088/
+  label: How programming emerged and developed from the 1940s to the present amid collaborations and clashes between engineers, mathematicians, hackers, managers and humanists.
+  language: English
   current: yes

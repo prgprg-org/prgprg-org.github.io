@@ -86,3 +86,11 @@
   label: How programming emerged and developed from the 1940s to the present amid collaborations and clashes between engineers, mathematicians, hackers, managers and humanists.
   language: English
   current: yes
+
+- title: Functions, trees, processes
+  schedule: Winter 2026/27, Thu 10:40 in S11
+  lecturer: Corfield, Petricek, Nesetril, MFF
+  link: https://d3s.mff.cuni.cz/teaching/nprg086/
+  label: We take many computer science concepts for granted, but where do they come from, how did they evolve, and do we even agree on what they mean? 
+  language: English
+  current: yes

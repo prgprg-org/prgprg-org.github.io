@@ -22,19 +22,23 @@
   current: yes
 
 - title: Program Analysis
-  schedule: Summer 2024/25
+  schedule: Tuesday, 9:15, T9:346
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/08/21/p6082106.html
   label: Learn how to reason about programs without running them. We cover the basic techniques of static and dynamic program analysis.
+  language: English/Czech
+  current: yes
 
 - title: Runtime Systems
   schedule: Summer 2024/25
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
+  language: English/Czech
+  current: yes
 
 - title: Advanced Program Testing
-  schedule: Thursday, 9:15, TK:PU1
+  schedule: Wednesday, 12:45, JP:B-571
   lecturer: Pierre Donat-Bouillud, FIT
   link: https://bilakniha.cvut.cz/en/predmet7585206.html
   label: Learn how to test a program, from specification, structural, property-based, and mutation testing, to fuzzing and symbolic execution.
@@ -46,6 +50,14 @@
   lecturer: Tomáš Jakl and Jan Liam Verter, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming. See [Czech](https://bilakniha.cvut.cz/cs/predmet6704206.html#gsc.tab=0) or [English](https://bilakniha.cvut.cz/cs/predmet6706506.html#gsc.tab=0) parallel information page.
+  language: English/Czech
+  current: yes
+
+- title: Semantics of Programming Languages
+  schedule: Thursday, 14:30, JP:B-570
+  lecturer: Tomáš Jakl, FIT
+  link: https://bilakniha.cvut.cz/cs/predmet8588206.html#gsc.tab=0
+  label: The aim of the course is to introduce students to the basics of programming language semantics, which is the basis for the study and implementation of programming languages. The emphasis will be on comparing operational and denotational semantics.
   language: English/Czech
   current: yes
 
@@ -65,7 +77,7 @@
   language: Czech
 
 - title: Code Generation
-  schedule: Fall 2024/25
+  schedule: Tuesday, 12:45, JP:B-571
   lecturer: Petr Maj, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.

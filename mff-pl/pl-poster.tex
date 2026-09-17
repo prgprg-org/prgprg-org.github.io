@@ -1,0 +1,196 @@
+\documentclass{article}
+\usepackage[a4paper]{geometry}
+\usepackage{tikz}
+\usepackage[light]{CrimsonPro}
+\usepackage{microtype}
+\usepackage{qrcode}
+\usepackage{enumitem}
+\setlist{noitemsep}
+\setlist[description]{itemsep=4pt,parsep=0pt}
+
+\usetikzlibrary{calc}
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\pagenumbering{gobble}
+
+\def\normalsize{\fontsize{11pt}{12pt}\selectfont}
+\def\Large{\fontsize{14pt}{16pt}\selectfont}
+
+\begin{document}
+\begin{tikzpicture}[remember picture, overlay]
+\node[inner sep=0.8in, anchor=north west, text width=\paperwidth,color=white] at (current page.north west) {\fontsize{.6in}{.6in}\selectfont\itshape
+{
+Learn \\
+Create \\
+Parse \\
+Design \\
+Compile\\
+Improve \\
+Modify \\
+Prettify \\
+Hack \\
+Interpret \\
+Package \\
+Specify \\
+Analyze \par
+}
+{\fontsize{1in}{1in}\selectfont\bfseries
+Programming\\
+Languages!\par}
+\vspace{3mm}
+\fontsize{.3in}{.3in}\selectfont\itshape
+(Or just make a better one of your own.)
+};
+\node[inner sep=1em, anchor=north east, text width=.53\paperwidth, fill=white, rounded corners=1ex, opacity=0.9] (winter) at ([xshift=-.5in, yshift=-.5in]current page.north east)
+{
+\textit{\Large\color{red!66!black} Fall Semester}
+\begin{description}
+    \setlength{\itemsep}{0.5em}
+    \item[Theory of Programming Languages (NPRG085, 2 ECTS)]\strut\par
+        \textit{by Vít Šefl \& Tomáš Petříček}
+        
+        Use the power of formal logic to specify programming languages, define type systems and make languages safer.
+    \item[Compiler Principles (NSWI098, 6 ECTS)]\strut\par
+        \textit{by David Bednárek \& Miroslav Kratochvíl}
+        
+        Did you just invent a programming language? 
+        Build a lexer, parser, and compiler and use the LLVM JIT to make it run!
+
+    \item[PRG$\cdot$PRG Reading Group]\strut\par
+        \textit{seminar, alternating with FIT CTU}
+
+        Read and discuss recent academic papers on programming languages and systems, theory and language runtimes.
+\end{description}
+};
+\node[inner sep=1em, anchor=north east, text width=.53\paperwidth, fill=white, rounded corners=1ex, opacity=0.9] (summer) at ([yshift=-1em] winter.south east)
+{
+\textit{\Large\color{red!66!black} Spring Semester}
+\begin{description}
+    \item[Principles of Programming Languages (NPRG084, 5 ECTS)]\strut\par
+        \textit{by Vít Šefl \& Tomáš Petříček}
+        
+        Learn about the concepts behind structured, imperative, functional, and object-oriented programming paradigms.
+    \item[Non-procedural Programming (NPRG005, 5 ECTS)]\strut\par
+        Can you program without imperative code?
+        Write mathematically clean, provably correct programs in small but powerful languages.
+    \item[Compiler Design (NSWI109, 4 ECTS)]\strut\par
+        \textit{by David Bednárek}
+        
+        You dare to read the assembly output of your compiler?
+        This course will reduce the amount of WTF that you'll go through.
+    \item[Programming in Haskell (NPRG068, 3 ECTS)]\strut\par
+        \textit{by Miroslav Kratochvíl}
+        
+        Study advanced techniques for modeling and processing of programs. Use modern programming-language research results for your practical goals!
+\end{description}
+};
+\node[inner sep=1em, anchor=north east, text width=.53\paperwidth, fill=white, rounded corners=1ex, opacity=0.9] (theses) at ([yshift=-1em] summer.south east)
+{
+\textit{\Large\color{red!66!black} Theses and Projects}\quad{\scriptsize(scan the QR code for supervisor contacts)}
+\begin{itemize}
+    \item custom and domain-specific languages
+    \item code golfing with functions, recursion and typeclasses
+    \item new programming tools, paradigms and patterns
+    \item program analyzers and type system applications
+    \item interactive and visual programming environments
+\end{itemize}
+};
+
+\begin{pgfonlayer}{bg}
+\fill[blue!50!cyan!35!black!80] (current page.north west) rectangle (current page.south east);
+
+\pgfmathdeclarerandomlist{greekletter}{ % ref: https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols
+    {$\forall$}
+    {$\exists$}
+    {$\to$}
+    {$\Rightarrow$}
+    {$\mapsto$}
+    {$\in$}
+    {$\subseteq$}
+    {$\simeq$}
+    {$A$}
+    {$\alpha$}
+    {$B$}
+    {$\beta$}
+    {$\chi$}
+    {$\delta$}
+    {$\Delta$}
+    {$E$}
+    {$\epsilon$}
+    {$\eta$}
+    {$\gamma$}
+    {$\Gamma$}
+    {$H$}
+    {$I$}
+    {$\iota$}
+    {$K$}
+    {$\kappa$}
+    {$\lambda$}
+    {$\Lambda$}
+    {$M$}
+    {$\mu$}
+    {$N$}
+    {$\nu$}
+    {$o$}
+    {$O$}
+    {$\omega$}
+    {$\Omega$}
+    {$P$}
+    {$\phi$}
+    {$\Phi$}
+    {$\pi$}
+    {$\Pi$}
+    {$\psi$}
+    {$\Psi$}
+    {$\rho$}
+    {$\sigma$}
+    {$\Sigma$}
+    {$T$}
+    {$\tau$}
+    {$\theta$}
+    {$\Theta$}
+    {$\upsilon$}
+    {$\Upsilon$}
+    {$\varepsilon$}
+    {$\varphi$}
+    {$\varrho$}
+    {$\vartheta$}
+    {$X$}
+    {$\xi$}
+    {$\Xi$}
+    {$Z$}
+    {$\zeta$}
+}
+\def\randomgreek{\pgfmathrandomitem{\ltr}{greekletter}\ltr}
+\pgfmathsetseed{1} % TODO perhaps find another seed with prominent lambda
+\begin{scope}[shift=(current page.south west)]
+\foreach \x in {0,1,...,21} { \foreach \y in {0,1,...,29} {
+\pgfmathsetmacro{\rot}{60*rnd-30}
+\pgfmathsetmacro{\sca}{2+3*rnd}
+\node[color=black,opacity=0.25,scale=\sca,rotate=\rot] at (\x cm,\y cm) {\randomgreek};
+}}
+\end{scope}
+
+\coordinate (focus) at ([yshift=2in, xshift=1.3in]current page.south west);
+\begin{scope}[shift=(focus)]
+\foreach \angle in {10,20,...,360}{
+    \begin{scope}[rotate=\angle]
+    \fill[white!25!cyan!60!black!95,opacity=0.6] (3cm,3cm) to ++(40cm,1cm) to ++(0cm,-5cm) to cycle;
+    \end{scope}
+}
+\foreach \angle in {5,10,...,360}{
+    \begin{scope}[rotate=\angle]
+    \fill[white, fill opacity=.25] (1cm,-2cm) to ++(40cm,0cm) to ++(0cm,1.5cm) to cycle;
+    \end{scope}
+}
+\end{scope}
+\end{pgfonlayer}
+
+\node[anchor=south east, inner sep=5mm, text width=3cm, fill=white, rounded corners=1ex] at ([xshift=-5mm,yshift=5mm] current page.south east) {
+\qrcode[height=3cm]{https://prgprg.org/mff-pl/} \\
+\ttfamily{\footnotesize prgprg.org/mff-pl}
+};
+
+\end{tikzpicture}
+\end{document}

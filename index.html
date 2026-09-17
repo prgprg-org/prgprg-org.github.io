@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
 <div class="row">
-  <div class="col-9-md">
+  <div class="col-12-md col-10-lg">
     <p>
       We are a group of researchers based in Prague interested in programming languages and systems
       from the <a href="https://prl-prg.github.io/">Programming Research Laboratory</a> at the
@@ -18,14 +18,14 @@ layout: default
     </p>
   </div>
 </div><div class="row">
-  <div class="col-9-md">
+  <div class="col-12-md col-10-lg">
     <h2>Regular Events</h2>
     <p>We run a number of events at both Czech Technical University and Charles University where we can meet
       and talk about programming languages and systems. To make talking to each other easier, our reading group
       alternates between the two locations!</p>
   </div>
 </div><div class="row events">
-  <div class="col-6-md">
+  <div class="col-6-md col-5-lg">
     <h3>Reading Group</h3>
     <i class="las la-file-alt"></i>
     <ul class="condensed">
@@ -37,28 +37,28 @@ layout: default
       Topics range from essential PL reading to recent papers of interest.
       All students are welcome to join and suggest papers!</p>
   </div>
-  <div class="col-6-md">
+  <div class="col-6-md col-5-lg">
     <h3>Group Lunch at MFF</h3>
     <i class="las la-pizza-slice"></i>
     <ul class="condensed">
-      <li><strong>Mondays 13:00, Café HAMU, Malá Strana</strong></li>
+      <li><strong>Mondays 11:00, Malá Strana</strong></li>
       <li>Come and loook for us or email Tomas to check</li>
     </ul>
     <p>
-      We meet at 12:00 in front of S204 to talk about current research ideas, open
+      We meet at 11:00 in front of S204 to talk about current research ideas, open
       problems and whatever interests us and then have lunch together at
-      the nearby <a href="https://www.hamu.cz/en/about-hamu/university-cafe/">Café HAMU</a> around 13:00.</p>
+      the downstairs Menza around 12:30.</p>
   </div>
 </div><div class="row events">
-  <div class="col-6-md">
-    <h3>#lang-talk meetups</h3>
+  <div class="col-6-md col-5-lg">
+    <h3>Student PL Meetup</h3>
     <i class="las la-chalkboard-teacher"></i>
     <ul class="condensed">
-      <li><strong>Irregularly, afternoons at FIT, Dejvice</strong></li>
-      <li><a href="https://github.com/lang-talk/meetups">Upcoming events, recordings and mailing list</a></li>
+      <li><strong>Monthly, afternoons at FEL, Dejvice</strong></li>
+      <li><a href="https://student-meetup.prgprg.org/">Upcoming events, recordings and mailing list</a></li>
     </ul>
     <p>
-      Small student-organized community of PL enthusiasts. Meets for member talks, discussions and
+      Small community of PL enthusiasts. Meets for member talks, discussions and
       invited guest talks. Also check out recordings and a list of useful resources!</p>
   </div>
 </div>
@@ -67,7 +67,8 @@ layout: default
   <div class="col-9-md signup">
     <h2>Receive email updates!</h2>
     <p>Sign up here to receive updates about reading group meetings, other interesting events in Prague, new courses and opportunities and occassional other PRG &#x2022; PRG news.</p>
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeqF4rBl1Xp-Pf7IALIP9NVWCA5p428UqA7AhkkrkDRT0o-Jw/formResponse" method="POST">
+    <noscript id="submitns"><p>This requires JavaScript. Please drop us an email and we'll add you to the list!</p></noscript>
+    <form id="submitform" method="POST" style="display:none">
       <input type="email" placeholder="ada@lovelace.com" name="entry.1560051747" id="entry.1560051747">
       <button type="submit">Subscribe now!</button>
     </form>
@@ -98,7 +99,7 @@ layout: default
     <p>You are welcome to join courses at "the other place", but it is a good idea to drop the lecturer an email about practical details.
       In the future, we hope to collaborate more closely so that you can (easily) get credits for external courses too.
     </p>
-    <h3>Winter Semester 2024/25</h3>
+    <h3>Winter Semester 2026/27</h3>
     <ul>
       {% for it in site.data.courses %}
       {% if it.current %}
@@ -107,7 +108,7 @@ layout: default
       {% endif %}
       {% endfor %}
     </ul>
-    <h3>Summer and Future Courses</h3>
+    <h3>Past and Future Courses</h3>
     <ul>
       {% for it in site.data.courses %}
       {% unless it.current %}
@@ -143,3 +144,8 @@ layout: default
   {% endfor %}
 </div>
 </div>
+<script>
+  document.getElementById("submitform").action="https:##docs.google.com#forms#u#0#d#e#1FAIpQLSeqF4rBl1Xp-Pf7IALIP9NVWCA5p428UqA7AhkkrkDRT0o-Jw#formResponse".replaceAll("#","/");
+  document.getElementById("submitns").style.display="none";
+  document.getElementById("submitform").style.display="";
+</script>

@@ -1,7 +1,7 @@
 - name: Pierre Donat-Bouillud
   photo: img/people/pierre.jpg
-  position: Postdoctoral Researcher at CTU
-  email: donatpie@fit.cvut.cz
+  position: Assistant Professor at CTU
+  email: pierre.donat.bouillud@fit.cvut.cz
   web: https://www.pdonatbouillud.com
   interests: Interested in programming languages, program analysis, and testing techniques, including fuzzing.
 
@@ -24,7 +24,7 @@
   position: PhD Student at MFF
   email: verter@d3s.mff.cuni.cz
   web: https://github.com/lambduli
-  interests: I build small programming languages, theorem provers, and other systems related to PLT.
+  interests: Builds small programming languages, theorem provers, and other systems related to PLT.
 
 - name: Tomáš Jakl
   photo: img/people/tomasj.jpg
@@ -35,7 +35,7 @@
 
 - name: Vít Šefl
   photo: img/people/vit.jpg
-  position: PhD Student at MFF
+  position: Lecturer at MFF
   email: sefl@ksvi.mff.cuni.cz
   web: https://ksvi.mff.cuni.cz/~sefl
   interests: Interested in functional programming, type systems, and theorem provers.
@@ -46,3 +46,16 @@
   email: petr.maj@fit.cvut.cz
   web: https://peta.terminalpp.com
   interests: Works on compilers, virtual machines and embedded systems.
+
+- name: Štěpán Šindelář
+  photo: img/people/stepan.jpg
+  position: Language Runtimes Engineer at Oracle Labs
+  email: stepan.sindelar@oracle.com
+  interests: Works on dynamic language runtimes and virtual machines
+
+- name: Jakub Dupák
+  photo: img/people/jakub.jpg
+  position: Lecturer at CTU, Compiler Engineer at Microsoft
+  email: dev@jakubdupak.com
+  web: https://jakubdupak.com
+  interests: Interested in compilers, programming languages, system programming, Zig, and Rust.

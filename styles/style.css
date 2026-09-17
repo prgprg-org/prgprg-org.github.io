@@ -51,18 +51,18 @@
 body { background:#E5E3DA; min-width:260px }
 header { background-image:url(../img/prague.jpg); height:20vw; min-height:250px; background-position:center; background-size:cover;}
 header .row { position:relative; height:20vw; min-height:250px; }
-header .cover { background:rgba(0,0,0,0.5); width:100%; min-height:250px; height:20vw; }
+header .cover { background:rgba(0,0,0,0.25); width:100%; min-height:250px; height:20vw; }
 header .bot { position:absolute; bottom:20px; }
 
 header h1 { color:white; font:700 30pt "Neuton", serif; background:#822D1C; padding:0px 20px 6px 20px; margin-bottom:20px; width:fit-content; }
 header h2 { color:white; font:200 18pt "Neuton", serif; background:#4F7740; padding:2px 20px 8px 20px; margin-bottom:20px; width:fit-content; }
-@media only screen and (min-width:720px) { 
-  header h1 { font-size:34pt; } 
-  header h2 { font-size:20pt; } 
+@media only screen and (min-width:720px) {
+  header h1 { font-size:34pt; }
+  header h2 { font-size:20pt; }
 }
-@media only screen and (min-width:1000px) { 
-  header h1 { font-size:40pt; } 
-  header h2 { font-size:24pt; } 
+@media only screen and (min-width:1000px) {
+  header h1 { font-size:40pt; }
+  header h2 { font-size:24pt; }
 }
 
 article { padding:30px 0px 100px 0px; }
@@ -91,7 +91,6 @@ a:hover, a:active { text-decoration:underline; }
 .events ul { margin:0px 0px 15px 50px; }
 
 .people img { max-width:140px; float:left; margin-top:20px; box-shadow:0px 0px 7px rgba(0,0,0,0.5); }
-.people .info h3 { margin-top:20px; }  
+.people .info h3 { margin-top:20px; }
 .people .info { margin-left:160px; margin-bottom:20px; }
 .people p { margin-bottom:0px;}
-

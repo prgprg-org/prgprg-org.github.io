@@ -1,26 +1,3 @@
-- title: Programming Language Design
-  schedule: Tuesday, 12:20, S6
-  lecturer: Tomas Petricek, MFF
-  link: https://d3s.mff.cuni.cz/teaching/nprg075/
-  label: Learn how to design better programming langauges and libraries using a range of empirical, formal, theoretical and interdisciplinary research methods.
-  language: English
-  current: yes
-
-- title: Write Your Own Tiny Programming System(s)!
-  schedule: Winter 2025/26
-  lecturer: Tomas Petricek, MFF
-  link: https://d3s.mff.cuni.cz/teaching/nprg077/
-  label: Learn fundamental techniques from functional, object-oriented, imperative and logic languages and systems by writing their miniature versions.
-  language: English
-
-- title: Informal Hands-on F# Course
-  schedule: To be agreed
-  lecturer: Tomas Petricek, MFF
-  link: https://forms.gle/exXgjDi6Gv5GPy5Z6
-  label: A few people expressed interest in learning some F#, so we will meet occasionally throughout the winter semester for a series of hands-on sessions on F#.
-  language: English/Czech
-  current: yes
-
 - title: Program Analysis
   schedule: Tuesday, 9:15, T9:346
   lecturer: Filip Krikava, FIT
@@ -30,12 +7,18 @@
   current: yes
 
 - title: Runtime Systems
-  schedule: Summer 2024/25
+  schedule: Summer 2025/26
   lecturer: Filip Krikava, FIT
   link: https://bk.fit.cvut.cz/en/predmety/00/00/00/00/00/00/06/11/45/p6114506.html
   label: Learn how to build a virtual machine for a JS-like programming language including AST and BC interpretation, garbage-collection and just-in-time compilation.
   language: English/Czech
   current: yes
+
+- title: Virtual Machines and Managed Runtimes
+  schedule: Summer 2026/27
+  lecturer: Štěpán Šindelář, MFF
+  link: https://d3s.mff.cuni.cz/teaching/nprg076/
+  label: Learn about real-world virtual machines internals, with a focus on JVM, GraalVM, and Python. Get hands-on experience with the Truffle language implementation framework.
 
 - title: Advanced Program Testing
   schedule: Wednesday, 12:45, JP:B-571
@@ -46,8 +29,8 @@
   current: yes
 
 - title: Programming Paradigms
-  schedule: Friday, 9:15 or 11:00, TH:A-s135
-  lecturer: Tomáš Jakl and Jan Liam Verter, FIT
+  schedule: Tuesday 12:45, JP:B-571 (EN) and 14:30, JP:B-571 (CZ)
+  lecturer: Tomáš Jakl, Petr Maj and Jan Liam Verter, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6706506.html
   label: An introductory course to the theory of programming languages and to functional and logic programming. See [Czech](https://bilakniha.cvut.cz/cs/predmet6704206.html#gsc.tab=0) or [English](https://bilakniha.cvut.cz/cs/predmet6706506.html#gsc.tab=0) parallel information page.
   language: English/Czech
@@ -57,7 +40,7 @@
   schedule: Thursday, 14:30, JP:B-570
   lecturer: Tomáš Jakl, FIT
   link: https://bilakniha.cvut.cz/cs/predmet8588206.html#gsc.tab=0
-  label: The aim of the course is to introduce students to the basics of programming language semantics, which is the basis for the study and implementation of programming languages. The emphasis will be on comparing operational and denotational semantics.
+  label: An introduction to the study of PL semantics. We will look at denotational, operational and axiomatic semantics and the comparison of these. The problem of full abstraction will be also discussed.
   language: English/Czech
   current: yes
 
@@ -76,10 +59,57 @@
   label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust. Note that this course is taught in Czech.
   language: Czech
 
+
+- title: Principles of Programming Languages
+  schedule: Summer 2026/27
+  lecturer: Vít Šefl & Tomas Petricek, MFF
+  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG084
+  label: Learn about basic principles and concepts of programming languages, including structured, object-oriented and functional programming.
+  language: Czech/English
+
 - title: Code Generation
   schedule: Tuesday, 12:45, JP:B-571
   lecturer: Petr Maj, FIT
   link: https://bilakniha.cvut.cz/cs/predmet6114906.html
   label: Learn how to build a compiler for a C-like programming language with emphasis on program optimization and target code generation.
   language: English/Czech
+  current: yes
+
+
+- title: Programming in Haskell
+  schedule: Summer 2026/27
+  lecturer: Miroslav Kratochvíl, MFF
+  link: https://teaching.mff.cuni.cz/nprg068-web/
+  label: Very pratically-oriented course about making realistic software in a high-level strictly-typed lazy programming language. Focuses on use of the most distinguishing features and ecosystem libraries.
+  language: Czech (switches to English on demand)
+
+- title: Effective Software
+  schedule: Summer 2025/26, Mondays 12:45, KN:E-301
+  lecturer: Jakub Dupák & David Šišlák, FEL
+  link: https://esw.pages.fel.cvut.cz/
+  label: Learn how to write effective software, from hardware, through operating systems, to compilers and programming languages.
+  language: English (+ Czech labs available)
+
+- title: Theory of Programming Languages
+  schedule: Winter 2026/27, Wed 12:20 in S10
+  lecturer: Vít Šefl & Tomas Petricek, MFF
+  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG085
+  label: Learn about theoretical concepts and tools for studying programming languages. We will look at formal models of programming languages and explore their properties.
+  language: Czech/English
+  current: yes
+
+- title: Cultures of Programming
+  schedule: Winter 2026/27, Tue 10:40 in S10
+  lecturer: Tomas Petricek, MFF
+  link: https://d3s.mff.cuni.cz/teaching/nprg088/
+  label: How programming emerged and developed from the 1940s to the present amid collaborations and clashes between engineers, mathematicians, hackers, managers and humanists.
+  language: English
+  current: yes
+
+- title: Functions, trees, processes
+  schedule: Winter 2026/27, Thu 10:40 in S11
+  lecturer: Corfield, Petricek, Nesetril, MFF
+  link: https://d3s.mff.cuni.cz/teaching/nprg086/
+  label: We take many computer science concepts for granted, but where do they come from, how did they evolve, and do we even agree on what they mean? 
+  language: English
   current: yes

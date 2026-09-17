@@ -1,6 +1,7 @@
 # PRG.PRG web page
 
 * People are listed in `_data/members.yml`
+* Courses are in `_data/courses.yml`
 * Everything else is directly in `index.html`
 
 ## Debugging locally

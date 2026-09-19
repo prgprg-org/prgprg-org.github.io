@@ -43,22 +43,6 @@
   language: English/Czech
   current: yes
 
-- title: Functional Programming
-  schedule: Wednesday, 12:20, S9
-  lecturer: Vít Šefl, MFF
-  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NAIL097
-  label: Learn theoretical foundations of functional programming and their uses, in particular in the environment of Haskell language. 
-  language: English/Czech
-  current: yes
-
-- title: Programming Methodology and Philosophy of PLs
-  schedule: Summer 2024/2025
-  lecturer: Vít Šefl, MFF
-  link: https://is.cuni.cz/studium/predmety/index.php?do=predmet&kod=NPRG003
-  label: Learn about all the programming paradigms and how programming languages evolved, from Fortran to Rust. Note that this course is taught in Czech.
-  language: Czech
-
-
 - title: Principles of Programming Languages
   schedule: Summer 2026/27
   lecturer: Vít Šefl & Tomas Petricek, MFF
@@ -109,6 +93,6 @@
   schedule: Winter 2026/27, Thu 10:40 in S11
   lecturer: Corfield, Petricek, Nesetril, MFF
   link: https://d3s.mff.cuni.cz/teaching/nprg086/
-  label: We take many computer science concepts for granted, but where do they come from, how did they evolve, and do we even agree on what they mean? 
+  label: We take many computer science concepts for granted, but where do they come from, how did they evolve, and do we even agree on what they mean?
   language: English
   current: yes
